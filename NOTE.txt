@@ -1,0 +1,12 @@
+Saya ingin menjelaskan sedikit terkait aplikasi yang saya buat yang terpadat minor, bug ataupun belum selesai :
+
+- Redirect ke halaman login apabila access token invalid / tidak ditemukan
+minor : sudah terprotected namun masih ada minor dimana masih keliatan tampilan /dashboard/summary nya lalu jelang beberapa detik akan terpental ke '/'
+
+- Implementasikan fitur berikut pada menu “coupon”
+c. Export (belum selesai)
+e. Update (terdapat bug yang saya buat dimana saat update tidak dapat keubah value nya, saya udah coba di postman yang diberikan namun tidak berubah juga)
+
+- Tambahkan mekanisme filtering pada task nomor 7 (belum selesai)
+
+Terdapat bug minor yang saya buat dimana apabila login sudah mendapatkan access token lalu terpadat error 401, yang saya lakukan hal itu menaruhkan kembali access token di .env yg sudah disediakan kemudian direfresh akan kembali normal. bug ini tidak sering karna saya sudah simpan di local storage
